@@ -53,7 +53,7 @@ export default function HomePage() {
             </div>
 
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-light mb-8 tracking-tight leading-none">
-              API keys for
+              API Vault for
               <br />
               <span className="text-zinc-300">developers</span>
             </h1>
@@ -125,16 +125,6 @@ export default function HomePage() {
           </div>
         </section>
       </main>
-
-      <footer className="border-t border-zinc-900 py-12 px-6">
-        <div className="container mx-auto text-center">
-          <p className="text-sm text-zinc-500 leading-relaxed">
-            Companies of all sizes trust Secured
-            <br />
-            to store their most important API keys.
-          </p>
-        </div>
-      </footer>
     </div>
   )
 }

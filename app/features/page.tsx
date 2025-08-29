@@ -86,7 +86,7 @@ export default function FeaturesPage() {
                 <CardTitle className="text-2xl font-light mb-4">Open Source & Transparent</CardTitle>
                 <CardDescription className="text-zinc-400 text-base leading-relaxed">
                   Built by young, passionate developers who believe in transparency. Our entire codebase is open source
-                  - audit it, contribute to it, trust it.
+                   audit it, contribute to it, trust it.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -94,7 +94,7 @@ export default function FeaturesPage() {
 
           <div className="border-t border-zinc-900 pt-20">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-light mb-6">Why developers choose Secured</h2>
+              <h2 className="text-4xl font-light mb-6">Why developers choose Secured CLI</h2>
               <p className="text-zinc-400 text-lg max-w-2xl mx-auto">
                 Built by developers who understand the pain of managing API keys across projects
               </p>

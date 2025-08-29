@@ -73,8 +73,8 @@ export default function PricingPage() {
                   <li className="flex items-start">
                     <div className="w-1.5 h-1.5 bg-white rounded-full mt-2 mr-3 flex-shrink-0"></div>
                     <div>
-                      <div className="font-medium">10 API key storage</div>
-                      <div className="text-sm text-zinc-500">Store up to 10 different API keys</div>
+                      <div className="font-medium">50 Secrets storage</div>
+                      <div className="text-sm text-zinc-500">Store up to 50 different Secrets</div>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -129,8 +129,8 @@ export default function PricingPage() {
                   <li className="flex items-start">
                     <div className="w-1.5 h-1.5 bg-white rounded-full mt-2 mr-3 flex-shrink-0"></div>
                     <div>
-                      <div className="font-medium">Unlimited API keys</div>
-                      <div className="text-sm text-zinc-500">Store as many keys as you need</div>
+                      <div className="font-medium">Unlimited Secrets keys</div>
+                      <div className="text-sm text-zinc-500">Store as many Secrets as you need</div>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -182,7 +182,13 @@ export default function PricingPage() {
                 <h3 className="text-lg font-medium mb-3">Is my data really secure?</h3>
                 <p className="text-zinc-400 text-sm leading-relaxed">
                   Yes. We use zero-knowledge encryption - your master password never leaves your device, and we
-                  literally cannot see your keys.
+                  literally cannot see your keys when you use CLI and GUI.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-medium mb-3"> Can I store my Secrets in my Own Database</h3>
+                <p className="text-zinc-400 text-sm leading-relaxed">
+                  Yes. You can integrate your own PostgreSQL Database for Secrets and monitor your access from the dashboard
                 </p>
               </div>
               <div>
